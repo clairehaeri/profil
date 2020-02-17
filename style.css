@@ -1,0 +1,124 @@
+/* Colors and Fonts*/
+
+@import url('https://fonts.googleapis.com/css?family=Lato|Lobster+Two|Patrick+Hand|Sriracha|Zilla+Slab&display=swap');
+
+body{
+	background-color:#2D162C;
+}
+
+h1,h2{
+	font-family: 'Lobster Two', cursive;
+	font-size: 35px;
+	text-shadow: -1px 0 #2D162C, 0 1px black, 1px 0 black, 0 -1px #2D162C;
+}
+
+h1{
+	color: #801336;
+}
+
+p{
+	color: #C72C41;
+	font-family: 'Sriracha', cursive;
+	font-size: 16px;
+	padding: 0% 15% 0% 5%;
+	text-align: justify;
+}
+
+.title-red{
+	color:#801336;
+}
+
+.title-orange{
+	color:#EE4540;
+}
+
+.title-rose{
+	color:#f95959;
+}
+
+/* Custom Design with class*/
+
+.container-top{
+	background-color: #ECDFC8;
+	width: 50%;
+	padding: 10px;
+	margin: 30px auto;
+	border-radius: 15px;
+	border: 5px dashed #801336;
+
+}
+
+.card-white{
+	background-color: #ECDFC8;
+	width: 60%;
+	padding: 2px 15px 15px 20px;
+	margin: 30px auto;
+	border-radius: 15px;
+	border: 3px solid #801336;
+}
+
+.img-circle {
+  border-radius: 30%;
+  width: 200px;
+  height: 200px;
+}
+
+.shadowed{
+	box-shadow: 10px 10px 10px #2D132C;
+}
+
+.btn{
+	background-color: #2D162C;
+	color: #e3e3e3;
+	text-decoration: none;
+	padding: 10px 10px;
+	border-radius: 30%;
+	box-shadow: 6px 13px 24px rgba(0;0;0;0.7);
+	transition: 0.6s;
+	border: 5px solid #801336;
+	font-family: 'Lobster Two', cursive;
+}
+
+.btn:hover {
+	background-color:#801336;
+}
+
+.list-inline{
+	list-style:none;
+	padding-left:10px;
+}
+
+.list-inline li {
+	display:inline;
+}
+
+.text-center{
+	text-align: center;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #2D162C;
+	margin: 5px 10px 5px 10px;
+}
+
+.list-inline i:hover {
+	color: #f95959;
+
+	@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
